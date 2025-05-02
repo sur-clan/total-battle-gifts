@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /browser.html
+Disallow: /triumph.html
+Disallow: /ios.html
+Disallow: /android.html
+Disallow: /ios-mobile.html
+Disallow: /android-mobile.html
