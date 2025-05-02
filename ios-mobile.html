@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>iOS Daily Gifts (Mobile)</title>
+  <title>Daily Gifts - iOS (Mobile)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
@@ -12,6 +12,29 @@
       color: #EFA941;
       text-align: center;
     }
+    header {
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    header img {
+      height: 80px;
+    }
+    .home-button {
+      font-size: 1em;
+      padding: 10px 16px;
+      border: 2px solid #EFA941;
+      color: #EFA941;
+      background-color: #111;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .home-button:hover {
+      background-color: #EFA941;
+      color: #000;
+    }
     h1 {
       font-size: 1.8em;
       margin: 20px;
@@ -19,6 +42,13 @@
     .section-note {
       font-size: 1.2em;
       margin: 10px 20px;
+      color: white;
+    }
+    hr {
+      border: none;
+      height: 2px;
+      background: white;
+      margin: 50px 20px 30px;
     }
     .gift-button {
       display: block;
@@ -37,10 +67,34 @@
       background-color: #EFA941;
       color: #000;
     }
+    footer {
+      border-top: 1px solid #444;
+      padding: 30px 0 20px;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    footer a img {
+      height: 80px;
+    }
+    .footer-center {
+      color: #888;
+      font-size: 0.8em;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
-  <h1>iOS Daily Gifts</h1>
+  <header>
+    <a href="https://totalbattle.com/" target="_blank">
+      <img src="totalbattle-logo.png" alt="Total Battle Logo">
+    </a>
+    <a class="home-button" href="https://www.sur-clan.com/total-battle-gifts">Back to Total Battle Gifts</a>
+  </header>
+
+  <h1>Daily Gifts - iOS</h1>
   <p class="section-note">These gifts can be claimed once per day and only work on the day of the week they are for.</p>
   <a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/h3n9bz4l" target="_blank">MONDAY<br>Gold</a>
 <a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/atjav1j0" target="_blank">TUESDAY<br>XP</a>
@@ -49,5 +103,28 @@
 <a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/e08dg3he" target="_blank">FRIDAY<br>500 Gold</a>
 <a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/shl7uy9z" target="_blank">SATURDAY<br>4x15m Speedup</a>
 <a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/hk7nqk5m" target="_blank">SUNDAY<br>3h Speedups</a>
+
+  <hr />
+  <h1>Bonus Gifts - iOS</h1>
+  <p class="section-note">These gifts work occasionally. If they don't work, wait a week and try again.</p>
+  <a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link" target="_blank">1500 Gold</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm65649016820614116771" target="_blank">Portals and Teleport</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm65718111692502663920" target="_blank">Portal and Speedups</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm88358274959472004847" target="_blank">15 Tengel Fragments</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm88699238334633291419" target="_blank">5k Building Materials</a>
+
+  <hr />
+  <h1>Event Gifts - iOS</h1>
+  <p class="section-note">These links only work during events such as roulette campaigns.</p>
+  <a class="gift-button" href="totalbattle://deeplink/?deep_link_value=dragonroulette100" target="_blank">Dragon Roulette</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=luckyroulette100" target="_blank">Lucky Roulette</a>
+<a class="gift-button" href="totalbattle://deeplink/?deep_link_value=ramsesroulette100" target="_blank">Ramses Roulette</a>
+
+  <footer>
+    <a href="https://discord.gg/xp6MHd4v" target="_blank"><img src="discord.png" alt="Discord"></a>
+    <a href="https://www.sur-clan.com/" target="_blank"><img src="sur-logo.png" alt="SuR Logo"></a>
+    <a href="https://totalbattle.com/" target="_blank"><img src="k186.png" alt="TB K186"></a>
+  </footer>
+  <div class="footer-center">©2025 by SuR.</div>
 </body>
 </html>
