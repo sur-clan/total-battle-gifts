@@ -26,19 +26,21 @@
       background: url('header-background.png') no-repeat center center;
       background-size: cover;
       text-align: center;
-      min-height: 500px;
-      padding: 100px 20px 60px;
+      height: 300px;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
     }
     .hero h1 {
       font-size: 3em;
-      margin-bottom: 10px;
       color: #FFD700;
     }
-    .hero p {
+    .content {
+      background-color: #000;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .content p {
       font-size: 1.3em;
       margin-bottom: 40px;
       color: #FFD700;
@@ -58,6 +60,7 @@
       text-decoration: none;
       border-radius: 6px;
       transition: 0.3s;
+      width: 200px;
     }
     .button:hover {
       background-color: #FFD700;
@@ -90,6 +93,9 @@
 
   <section class="hero">
     <h1>Total Battle Gifts</h1>
+  </section>
+
+  <section class="content">
     <p>Claim your free gifts…</p>
     <div class="buttons-wrapper">
       <a class="button" href="browser.html">Browser</a>
