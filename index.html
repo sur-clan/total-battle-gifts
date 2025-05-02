@@ -17,17 +17,17 @@
       align-items: center;
     }
     header img {
-      height: 50px;
+      height: 40px;
     }
     .hero {
       background: url('header-background.png') no-repeat center;
       background-size: cover;
       text-align: center;
-      padding: 120px 20px 60px;
+      padding: 60px 20px;
     }
     .hero h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 2.5em;
+      margin-bottom: 10px;
       color: #FFD700;
     }
     .hero p {
@@ -36,22 +36,29 @@
       color: #FFD700;
     }
     .button {
-      font-size: 1.2em;
-      padding: 12px 30px;
+      font-size: 1.1em;
+      padding: 12px 24px;
       border: 2px solid #FFD700;
       background: transparent;
       color: #FFD700;
       text-decoration: none;
       display: inline-block;
-      margin-top: 10px;
+      margin: 10px;
+      width: 220px;
     }
     .button:hover {
       background-color: #FFD700;
       color: #000;
     }
+    .buttons-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
     footer {
       border-top: 1px solid #444;
-      padding: 40px 0;
+      padding: 30px 0 10px;
       background-color: #000;
       display: flex;
       justify-content: center;
@@ -59,7 +66,7 @@
       flex-wrap: wrap;
     }
     footer img {
-      height: 100px;
+      height: 70px;
     }
     .footer-center {
       text-align: center;
@@ -71,12 +78,17 @@
 </head>
 <body>
   <header>
-    <img src="total-battle.png" alt="Total Battle Logo">
+    <img src="totalbattle-logo.png" alt="Total Battle Logo">
   </header>
   <div class="hero">
     <h1>Total Battle Gifts</h1>
     <p>Claim your free gifts…</p>
-    <a class="button" href="browser.html">HERE</a>
+    <div class="buttons-wrapper">
+      <a class="button" href="browser.html">Browser</a>
+      <a class="button" href="triumph.html">Triumph</a>
+      <a class="button" href="ios.html">iOS</a>
+      <a class="button" href="android.html">Android</a>
+    </div>
   </div>
   <footer>
     <img src="discord.png" alt="Join Discord">
