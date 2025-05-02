@@ -17,9 +17,11 @@
       justify-content: space-between;
       align-items: center;
     }
+    header a.logo {
+      margin-left: -50px;
+    }
     header img {
       height: 100px;
-      margin-left: -50px;
     }
     .home-button {
       color: #EFA941;
@@ -40,7 +42,7 @@
       text-align: center;
     }
     h1 {
-      font-size: 2.4em;
+      font-size: 2em;
     }
     h2 {
       color: #EFA941;
@@ -57,7 +59,11 @@
       gap: 20px;
       margin: 30px auto 50px;
     }
+    .gift-box {
+      margin: 10px;
+    }
     .gift-button {
+      display: inline-block;
       background-color: #111;
       border: 2px solid #EFA941;
       color: #EFA941;
@@ -94,19 +100,19 @@
 </head>
 <body>
   <header>
-    <img src="totalbattle-logo.png" alt="Total Battle Logo">
+    <a class="logo" href="https://totalbattle.com/" target="_blank"><img src="totalbattle-logo.png" alt="Total Battle Logo"></a>
     <a class="home-button" href="index.html">Back to Gifts</a>
   </header>
   <section class="content">
     <h1>Daily Gifts – Ios</h1>
-    <p style='font-size: 1.4em;'>These gifts can be claimed once per day and only work on the day of the week they are for.</p>
-    <div class="gift-row"><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/h3n9bz4l" target="_blank">Gold</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/atjav1j0" target="_blank">XP</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/xp7gbljw" target="_blank">1500 Tar</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/gbwfnf2t" target="_blank">25p Speedups</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/e08dg3he" target="_blank">500 Gold</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/shl7uy9z" target="_blank">4x15m Speedup</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/hk7nqk5m" target="_blank">3h Speedups</a></div>
+    <p class='section-note'>These gifts can be claimed once per day and only work on the day of the week they are for.</p>
+    <div class="gift-row"><div class="gift-box"><strong>MONDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/h3n9bz4l" target="_blank">Gold</a></div>
+<div class="gift-box"><strong>TUESDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/atjav1j0" target="_blank">XP</a></div>
+<div class="gift-box"><strong>WEDNESDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/xp7gbljw" target="_blank">1500 Tar</a></div>
+<div class="gift-box"><strong>THURSDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/gbwfnf2t" target="_blank">25p Speedups</a></div>
+<div class="gift-box"><strong>FRIDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/e08dg3he" target="_blank">500 Gold</a></div>
+<div class="gift-box"><strong>SATURDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/shl7uy9z" target="_blank">4x15m Speedup</a></div>
+<div class="gift-box"><strong>SUNDAY</strong><br><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/hk7nqk5m" target="_blank">3h Speedups</a></div></div>
     <h2>Bonus Gifts – Ios</h2><p class='section-note'>These gifts work occasionally. If they don't work, wait a week and try again.</p><div class='gift-row'><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link" target="_blank">1500 Gold</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm65649016820614116771" target="_blank">Portals and Teleport</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm65718111692502663920" target="_blank">Portal and Speedups</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm88358274959472004847" target="_blank">15 Tengel Fragments</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=reward_link_rm88699238334633291419" target="_blank">5k Building Materials</a></div>
     <h2>Event Gifts – Ios</h2><p class='section-note'>These links only work during events such as roulette campaigns.</p><div class='gift-row'><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=dragonroulette100" target="_blank">Dragon Roulette</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=luckyroulette100" target="_blank">Lucky Roulette</a><a class="gift-button" href="totalbattle://deeplink/?deep_link_value=ramsesroulette100" target="_blank">Ramses Roulette</a></div>
   </section>
