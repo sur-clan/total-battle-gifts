@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Total Battle Gifts | SuR</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: 'Georgia', serif;
@@ -12,7 +15,7 @@
     }
     header {
       background-color: #000;
-      padding: 10px 20px;
+      padding: 20px 30px;
       display: flex;
       align-items: center;
     }
@@ -22,52 +25,51 @@
     .hero {
       background: url('header-background.png') no-repeat center center;
       background-size: cover;
-      background-position: center;
       text-align: center;
-      padding: 100px 20px 120px;
+      min-height: 500px;
+      padding: 100px 20px 60px;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
     }
     .hero h1 {
-      font-size: 2.5em;
+      font-size: 3em;
       margin-bottom: 10px;
       color: #FFD700;
     }
     .hero p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
+      font-size: 1.3em;
+      margin-bottom: 40px;
       color: #FFD700;
+    }
+    .buttons-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
     }
     .button {
       font-size: 1.1em;
-      padding: 12px 24px;
+      padding: 12px 28px;
       border: 2px solid #FFD700;
       background: transparent;
       color: #FFD700;
       text-decoration: none;
-      display: inline-block;
-      margin: 10px;
-      width: 220px;
+      border-radius: 6px;
+      transition: 0.3s;
     }
     .button:hover {
       background-color: #FFD700;
       color: #000;
     }
-    .buttons-wrapper {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
     footer {
       border-top: 1px solid #444;
-      padding: 30px 0 10px;
+      padding: 40px 0 20px;
       background-color: #000;
       display: flex;
       justify-content: center;
-      gap: 40px;
+      gap: 60px;
       flex-wrap: wrap;
     }
     footer img {
@@ -76,7 +78,7 @@
     .footer-center {
       text-align: center;
       margin-top: 20px;
-      color: #666;
+      color: #888;
       font-size: 0.8em;
     }
   </style>
@@ -85,7 +87,8 @@
   <header>
     <img src="totalbattle-logo.png" alt="Total Battle Logo">
   </header>
-  <div class="hero">
+
+  <section class="hero">
     <h1>Total Battle Gifts</h1>
     <p>Claim your free gifts…</p>
     <div class="buttons-wrapper">
@@ -94,7 +97,8 @@
       <a class="button" href="ios.html">iOS</a>
       <a class="button" href="android.html">Android</a>
     </div>
-  </div>
+  </section>
+
   <footer>
     <img src="discord.png" alt="Join Discord">
     <img src="sur-logo.png" alt="SuR Emblem">
