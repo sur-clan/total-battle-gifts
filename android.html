@@ -63,7 +63,10 @@
       margin: 10px;
     }
     .gift-button {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-color: #111;
       border: 2px solid #EFA941;
       color: #EFA941;
@@ -73,10 +76,19 @@
       text-decoration: none;
       font-weight: bold;
       transition: 0.3s;
+      width: 220px;
+      height: 100px;
     }
     .gift-button:hover {
       background-color: #EFA941;
       color: #000;
+    }
+    .gift-day {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .gift-label {
+      font-size: 1.2em;
     }
     footer {
       border-top: 1px solid #444;
@@ -108,13 +120,13 @@
   <section class="content">
     <h1>Daily Gifts – Android</h1>
     <p class='section-note'>These gifts can be claimed once per day and only work on the day of the week they are for.</p>
-    <div class="gift-row"><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/h3n9bz4l" target="_blank">MONDAY – Gold</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/atjav1j0" target="_blank">TUESDAY – XP</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/xp7gbljw" target="_blank">WEDNESDAY – 1500 Tar</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/gbwfnf2t" target="_blank">THURSDAY – 25p Speedups</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/e08dg3he" target="_blank">FRIDAY – 500 Gold</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/shl7uy9z" target="_blank">SATURDAY – 4x15m Speedup</a>
-<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/hk7nqk5m" target="_blank">SUNDAY – 3h Speedups</a></div>
+    <div class="gift-row"><a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/h3n9bz4l" target="_blank"><div class="gift-day">MONDAY</div><div class="gift-label">Gold</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/atjav1j0" target="_blank"><div class="gift-day">TUESDAY</div><div class="gift-label">XP</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/xp7gbljw" target="_blank"><div class="gift-day">WEDNESDAY</div><div class="gift-label">1500 Tar</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/gbwfnf2t" target="_blank"><div class="gift-day">THURSDAY</div><div class="gift-label">25p Speedups</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/e08dg3he" target="_blank"><div class="gift-day">FRIDAY</div><div class="gift-label">500 Gold</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/shl7uy9z" target="_blank"><div class="gift-day">SATURDAY</div><div class="gift-label">4x15m Speedup</div></a>
+<a class="gift-button" href="https://totalbattle.onelink.me/Xsl6/hk7nqk5m" target="_blank"><div class="gift-day">SUNDAY</div><div class="gift-label">3h Speedups</div></a></div>
     <h2>Bonus Gifts – Android</h2><p class='section-note'>These gifts work occasionally. If they don't work, wait a week and try again.</p><div class='gift-row'><a class="gift-button" href="intent://deeplink/?&deep_link_value=reward_link#Intent;scheme=totalbattle;end" target="_blank">1500 Gold</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=reward_link_rm65649016820614116771#Intent;scheme=totalbattle;end" target="_blank">Portals and Teleport</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=reward_link_rm65718111692502663920#Intent;scheme=totalbattle;end" target="_blank">Portal and Speedups</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=reward_link_rm88358274959472004847#Intent;scheme=totalbattle;end" target="_blank">15 Tengel Fragments</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=reward_link_rm88699238334633291419#Intent;scheme=totalbattle;end" target="_blank">5k Building Materials</a></div>
     <h2>Event Gifts – Android</h2><p class='section-note'>These links only work during events such as roulette campaigns.</p><div class='gift-row'><a class="gift-button" href="intent://deeplink/?&deep_link_value=dragonroulette100#Intent;scheme=totalbattle;end" target="_blank">Dragon Roulette</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=luckyroulette100#Intent;scheme=totalbattle;end" target="_blank">Lucky Roulette</a><a class="gift-button" href="intent://deeplink/?&deep_link_value=ramsesroulette100#Intent;scheme=totalbattle;end" target="_blank">Ramses Roulette</a></div>
   </section>
