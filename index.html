@@ -11,7 +11,7 @@
       margin: 0;
       font-family: 'Georgia', serif;
       background-color: #000;
-      color: #FFD700;
+      color: #EFA941;
     }
     header {
       background-color: #000;
@@ -25,15 +25,15 @@
     .hero {
       background: url('header-background.png') no-repeat center center;
       background-size: cover;
-      text-align: center;
+      text-align: left;
       height: 300px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      padding-left: 40px;
     }
     .hero h1 {
       font-size: 3em;
-      color: #FFD700;
+      color: #EFA941;
     }
     .content {
       background-color: #000;
@@ -41,29 +41,29 @@
       padding: 60px 20px;
     }
     .content p {
-      font-size: 1.3em;
+      font-size: 1.7em;
       margin-bottom: 40px;
-      color: #FFD700;
+      color: #EFA941;
     }
     .buttons-wrapper {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 15px;
+      gap: 20px;
     }
     .button {
-      font-size: 1.1em;
-      padding: 12px 28px;
-      border: 2px solid #FFD700;
+      font-size: 1.3em;
+      padding: 14px 32px;
+      border: 2px solid #EFA941;
       background: transparent;
-      color: #FFD700;
+      color: #EFA941;
       text-decoration: none;
       border-radius: 6px;
       transition: 0.3s;
-      width: 200px;
+      width: 220px;
     }
     .button:hover {
-      background-color: #FFD700;
+      background-color: #EFA941;
       color: #000;
     }
     footer {
@@ -72,11 +72,11 @@
       background-color: #000;
       display: flex;
       justify-content: center;
-      gap: 60px;
+      gap: 40px;
       flex-wrap: wrap;
     }
-    footer img {
-      height: 100px;
+    footer a img {
+      height: 90px;
     }
     .footer-center {
       text-align: center;
@@ -106,9 +106,15 @@
   </section>
 
   <footer>
-    <img src="discord.png" alt="Join Discord">
-    <img src="sur-logo.png" alt="SuR Emblem">
-    <img src="k186.png" alt="Total Battle K186">
+    <a href="https://discord.gg/xp6MHd4v" target="_blank">
+      <img src="discord.png" alt="Join Discord">
+    </a>
+    <a href="https://www.sur-clan.com/" target="_blank">
+      <img src="sur-logo.png" alt="SuR Emblem">
+    </a>
+    <a href="https://totalbattle.com/kingdoms/186" target="_blank">
+      <img src="k186.png" alt="Total Battle K186">
+    </a>
   </footer>
   <div class="footer-center">©2025 by SuR.</div>
 </body>
